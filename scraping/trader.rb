@@ -58,4 +58,11 @@ def trader_de_l_obscur
 
 end
 
-trader_de_l_obscur
+def trader_forever
+  loop {
+    trader_de_l_obscur
+    sleep(3600)
+  }
+end
+
+trader_forever
